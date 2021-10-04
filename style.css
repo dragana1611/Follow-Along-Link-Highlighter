@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suravaram&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0; /* Important! */
+  font-family: sans-serif;
+  background: url(IMG/background.jpg) no-repeat center center;
+  background-size: cover;
+  color: rgb(199, 136, 1);
+}
+
+.wrapper {
+  margin: 0 12% 0 auto;
+  max-width: 500px;
+  font-family: 'Metal', cursive;
+  font-size: 26px;
+  line-height: 2;
+  position: relative;
+}
+
+a {
+  padding: 2px;
+  text-decoration: none;
+  color: rgb(199, 136, 1);
+  background: rgba(250, 214, 98, 0.1);
+  border-radius: 20px;
+}
+
+a:hover {
+  color: rgb(153, 105, 0);
+  font-weight: bold;
+}
+
+.highlight {
+  transition: all 0.2s;
+  border-bottom: 2px solid rgb(168, 115, 0);
+  position: absolute;
+  top: 0;
+  background: rgba(255, 236, 196, 0.8);
+  left: 0;
+  z-index: -1;
+  border-radius: 20px;
+  display: block;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+.menu {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 5% auto 0 40%;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 1px;
+  margin: 0 20px;
+  font-family: 'Suravaram', serif;
+  font-size: 20px;
+}
