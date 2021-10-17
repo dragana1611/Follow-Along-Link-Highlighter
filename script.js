@@ -1,4 +1,4 @@
-'strict mode';
+'use strict';
 const triggers = document.querySelectorAll('a');
 console.log(triggers);
 const highlight = document.createElement('span');
